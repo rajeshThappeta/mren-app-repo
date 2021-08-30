@@ -4,7 +4,8 @@
   "description": "demo of mern app",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "rajesh",
   "license": "ISC",
@@ -18,5 +19,14 @@
     "mongodb": "^4.1.0",
     "multer": "^1.4.3",
     "multer-storage-cloudinary": "^4.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajeshThappeta/mern-app-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rajeshThappeta/mern-app-demo/issues"
+  },
+  "homepage": "https://github.com/rajeshThappeta/mern-app-demo#readme"
 }
